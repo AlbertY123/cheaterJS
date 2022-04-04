@@ -1,0 +1,78 @@
+footer{
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;  
+    font-size: 9px;
+    text-align: center;
+}
+/* @media only screen and (max-width: 600px) {
+    footer {
+      background-color: lightblue;
+    }
+  } */
+button {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(0, 60, 255, 0.301);
+    border-color: rgba(230, 9, 9, 0.212);
+    width: 60%;
+    border-radius: 6px;
+    height: 30px;
+}
+button:hover{
+    background: rgb(82, 166, 180);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.5), inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.heading{
+    text-align: center;
+    position: relative;
+}
+.h2{
+    position: absolute;
+    padding: 30px;
+    padding-top: 90px;
+}
+.bold{
+    background-color: black;
+    color: white;
+}
+b{
+    color: black;
+    font-size: 1.1rem;
+}
+body{
+    background: rgb(226, 226, 226);
+}
+div.border{
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-user-select: all; /* Safari */
+    -ms-user-select: all; /* IE 10 and IE 11 */
+    user-select: all; /* Standard syntax */
+}
+/* Dashed border */
+hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
+  
+  /* Dotted border */
+  hr.dotted {
+    border-top: 3px dotted #bbb;
+  }
+  
+  /* Solid border */
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  
+  /* Rounded border */
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
