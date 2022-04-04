@@ -22,6 +22,7 @@ function fakename(){
         "Tom",
         "Mark",
         "Linda",
+        "Sara",
     ]
     return names[randomNumber(0, names.length - 1)];
 }
