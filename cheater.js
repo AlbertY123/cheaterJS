@@ -55,4 +55,10 @@ function calculate(a, b, operator) {
         return divide(a, b);
     }
 }
-export default{popup, randomNumber, fakename, add, subtract, multiply, divide, calculate};
+function closetab(){
+    close()
+}
+function hidebyid(id){
+    document.getElementById(id).style.display = "none";
+}
+export default{popup, randomNumber, fakename, add, subtract, multiply, divide, calculate, closetab, hidebyid};

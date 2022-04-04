@@ -10,7 +10,7 @@ footer{
       background-color: lightblue;
     }
   } */
-button {
+.download {
     margin: 0;
     position: relative;
     left: 50%;
@@ -76,3 +76,12 @@ hr.dashed {
     border-top: 8px solid #bbb;
     border-radius: 5px;
   }
+.ukraine{
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.541);
+  border-radius: 6px;
+}
+.stand{
+  margin: 0;
+  padding: 0;
+}

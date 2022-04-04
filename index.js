@@ -1,3 +1,6 @@
 import cheater from './cheater.js';
-var i = cheater.fakename()
-console.log(i)
+document.getElementById("hide").addEventListener("click", hide);
+function hide(){
+    cheater.hidebyid("ukraine");
+}
+document.getElementById("header").classList.add("heading");
