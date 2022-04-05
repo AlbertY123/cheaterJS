@@ -5,6 +5,3 @@ function hide(){
     cheater.hidebyid("ukraine");
 }
 document.getElementById("header").classList.add("heading");
-
-//Example code (Useless code)
-console.log(cheater.randomNumber(2,10));

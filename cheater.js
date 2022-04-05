@@ -64,4 +64,5 @@ function hidebyid(id){
 function showbyid(id){
     document.getElementById(id).style.display = "block";
 }
+
 export default{popup, randomNumber, fakename, add, subtract, multiply, divide, calculate, closetab, hidebyid, showbyid};
