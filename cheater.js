@@ -61,4 +61,7 @@ function closetab(){
 function hidebyid(id){
     document.getElementById(id).style.display = "none";
 }
-export default{popup, randomNumber, fakename, add, subtract, multiply, divide, calculate, closetab, hidebyid};
+function showbyid(id){
+    document.getElementById(id).style.display = "block";
+}
+export default{popup, randomNumber, fakename, add, subtract, multiply, divide, calculate, closetab, hidebyid, showbyid};
