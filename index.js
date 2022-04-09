@@ -5,3 +5,4 @@ function hide(){
     cheater.hidebyid("ukraine");
 }
 document.getElementById("header").classList.add("heading");
+
